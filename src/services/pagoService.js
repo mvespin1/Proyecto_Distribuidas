@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8003/api/pagos';
+const API_URL = 'http://18.216.157.114:8003/api/pagos';
 const USUARIO_API_URL = 'http://18.216.157.114:8001/api/usuarios';
 
 // Obtener todos los pagos

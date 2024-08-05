@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8004/api/notificaciones'; // Reemplazar con la URL real de la API
+const API_BASE_URL = 'http://18.216.157.114:8004/api/notificaciones'; // Reemplazar con la URL real de la API
 
 export const getNotificaciones = async () => {
     const response = await axios.get(`${API_BASE_URL}`);

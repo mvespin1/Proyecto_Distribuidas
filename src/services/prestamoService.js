@@ -1,7 +1,7 @@
 // services/prestamoService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8002/api/prestamos';
+const API_URL = 'http://18.216.157.114:8002/api/prestamos';
 
 export const getPrestamos = async () => {
   const response = await axios.get(API_URL);

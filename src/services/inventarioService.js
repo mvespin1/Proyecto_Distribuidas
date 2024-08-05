@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8006/api/inventario';
-const LIBRO_API_URL = 'http://localhost:8005/api/libros';
+const API_URL = 'http://18.216.157.114:8006/api/inventario';
+const LIBRO_API_URL = 'http://18.216.157.114:8005/api/libros';
 
 // Obtener todos los inventarios
 export const getInventarios = async () => {
