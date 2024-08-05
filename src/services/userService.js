@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://18.222.121.215:8001/api/usuarios';
+const API_URL = 'http://18.216.157.114:8001/api/usuarios';
 
 export const getUsuarios = async () => {
   const response = await axios.get(API_URL);

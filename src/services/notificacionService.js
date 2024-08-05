@@ -28,7 +28,7 @@ export const getNotificacionById = async (id) => {
 
 export const getUsuarioById = async (id) => {
     try {
-        const response = await axios.get(`http://localhost:8001/api/usuarios/${id}`);
+        const response = await axios.get(`http://18.216.157.114:8001/api/usuarios/${id}`);
         return response.data;
     } catch (error) {
         if (error.response && error.response.status === 404) {
